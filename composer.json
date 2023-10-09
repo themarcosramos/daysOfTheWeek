@@ -1,0 +1,30 @@
+{
+    "name": "dev/projeto",
+    "description": "teste",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Marcos Ramos",
+            "email": "mjramosfsa@gmail.com",
+            "homepage": "https://github.com/themarcosramos",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+
+    }
+}
+
+
